@@ -1,3 +1,8 @@
+This is a micro project for me to practice working with React Components.
+
+Created from "create react-app"
+
+=======================================
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
