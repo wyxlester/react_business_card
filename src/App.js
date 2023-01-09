@@ -1,9 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Admin from "./components/Admin.js"
+import About from "./components/About.js"
+import Projects from "./components/Projects.js"
+import Footer from "./components/Footer.js"
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Admin />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }
