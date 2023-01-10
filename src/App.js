@@ -8,21 +8,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
-    <div class="container">
+    <div class="container pt-3 pb-5">
+
       <div class="row">
-        <Admin />
+        <div class="col">
+          <Admin />
+        </div>
       </div>
 
       <div class="row">
-        <About />
+        <div class="col">
+          <About />
+        </div>
       </div>
 
       <div class="row">
-        <Projects />
+        <div class="col">
+          <Projects />
+        </div>
       </div>
 
       <div class="row">
-        <Contact />
+        <div class="col">
+          <Contact />
+        </div>
       </div>
     </div>
   );
